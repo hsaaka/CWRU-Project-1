@@ -9,7 +9,8 @@ https://drive.google.com/file/d/17wpMNhdLkAogctS3hpqovRkonU9r5aWo/view?usp=shari
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  Playbook file - https://drive.google.com/file/d/13S7mxgA0opINO9Ee20ki8Jl60jcBbHaa/view?usp=sharing
+  Playbook file 
+  - https://drive.google.com/file/d/13S7mxgA0opINO9Ee20ki8Jl60jcBbHaa/view?usp=sharing
 
 This document contains the following details:
 - Description of the Topology
@@ -95,8 +96,12 @@ List the IP addresses of the machines you are monitoring_
 
 We have installed the following Beats on these machines:
 Specify which Beats you successfully installed_
-Filebeat - https://drive.google.com/file/d/1_bHCG32y5NGpy8u-IFLkTz7-5JGQK50x/view?usp=sharing
-Metricbeat - https://drive.google.com/file/d/1FdAurfoqjige5--7UYg5omKsyPDYkNjz/view?usp=sharing
+
+Filebeat - 
+https://drive.google.com/file/d/1_bHCG32y5NGpy8u-IFLkTz7-5JGQK50x/view?usp=sharing
+
+Metricbeat - 
+https://drive.google.com/file/d/1FdAurfoqjige5--7UYg5omKsyPDYkNjz/view?usp=sharing
 
 
 These Beats allow us to collect the following information from each machine:
@@ -116,4 +121,5 @@ SSH into the control node and follow the steps below:
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 - Enter "nano /etc/ansible/hosts" to edit and add Elk server to the hosts file in the Ansible's inventory
 - Create a new Ansible Playbook entering "touch /etc/ansible/install-elk.yml"
-- elk.yml - https://drive.google.com/file/d/16WwBS-2G8chLAgpVCP_AGJZ0jcEZIeo6/view?usp=sharing
+- elk.yml 
+- https://drive.google.com/file/d/16WwBS-2G8chLAgpVCP_AGJZ0jcEZIeo6/view?usp=sharing
