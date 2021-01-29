@@ -121,5 +121,4 @@ SSH into the control node and follow the steps below:
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 - Enter "nano /etc/ansible/hosts" to edit and add Elk server to the hosts file in the Ansible's inventory
 - Create a new Ansible Playbook entering "touch /etc/ansible/install-elk.yml"
-- elk.yml 
-- https://drive.google.com/file/d/16WwBS-2G8chLAgpVCP_AGJZ0jcEZIeo6/view?usp=sharing
+- elk.yml - https://drive.google.com/file/d/16WwBS-2G8chLAgpVCP_AGJZ0jcEZIeo6/view?usp=sharing
